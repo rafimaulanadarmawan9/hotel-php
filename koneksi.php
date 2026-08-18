@@ -4,7 +4,7 @@ $host = getenv('DB_HOST') ?: 'localhost';
 $port = getenv('DB_PORT') ?: '3306';
 $user = getenv('DB_USER') ?: 'root';
 $pass = getenv('DB_PASSWORD') ?: '';
-$db   = getenv('DB_NAME') ?: 'db_ukk_2022';
+$db   = getenv('DB_NAME') ?: 'databases_hotel';
 
 $koneksi = mysqli_init();
 
